@@ -1,0 +1,32 @@
+{
+  "name": "io.server360.web.odata",
+  "version": "1.0.0",
+  "description": "Understanding OData",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run start:1 && npm run start:2 && npm run start:3",
+    "start:1": "cd 1 && node client",
+    "start:2": "cd 2 && node client",
+    "start:3": "cd 3 && node client",
+    "start:4": "cd 4 && node client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thoschu/io.server360.web.odata.git"
+  },
+  "keywords": [
+    "OData",
+    "Node.js",
+    "JavaScript"
+  ],
+  "author": "Tom S. <thoschulte@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thoschu/io.server360.web.odata/issues"
+  },
+  "homepage": "https://github.com/thoschu/io.server360.web.odata#readme",
+  "dependencies": {
+    "ramda": "^0.25.0"
+  }
+}
